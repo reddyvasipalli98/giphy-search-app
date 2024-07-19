@@ -9,14 +9,25 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "image-trace-loader": "^1.0.2",
+    "imagemin-optipng": "^8.0.0",
+    "imagemin-svgo": "^11.0.1",
+    "jimp": "^0.22.12",
+    "lqip-loader": "^2.2.1",
+    "next": "14.2.5",
+    "next-compose-plugins": "^2.2.1",
+    "next-images": "^1.8.5",
+    "next-optimized-images": "^2.6.2",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.5"
+    "responsive-loader": "^3.1.2",
+    "svg-sprite-loader": "^6.0.11",
+    "webp-loader": "^0.6.0"
   },
   "devDependencies": {
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
     "eslint": "^8",
-    "eslint-config-next": "14.2.5"
+    "eslint-config-next": "14.2.5",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
   }
 }
